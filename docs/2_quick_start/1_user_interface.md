@@ -2,13 +2,16 @@
 ![RBrowser UI](../imgs/2_quick_start/quick_start_rbrowser_UI.png)
 
 ## 1. Overview 11111
-The RNA Browser UI is divided into five key regions:  
+The RBrowser UI is designed as an intuitive, high-resolution platform for exploring RNA–DNA crosstalk and transcriptome regulation.
 
-1. **Toolbar** (top) – Global menus and controls  
-2. **Sidebar Views** (left) – Track management and annotations  
-3. **Main Browser View** (center) – Continuous, RNA-centric signal display  
-4. **Plugin System** (right) – Extensible panels for structures and interactions  
-5. **Status Bar** (bottom) – Coordinates, load status, and notifications  
+The UI divided into five key regions: 
+
+1. **Toolbar** (top): Global menus and controls
+2. **Main Browser View** (center): Continuous, RNA-centric signal display
+3. **Sidebar** (left): Track management and annotations  
+4. 
+5. **Plugin System** (right): Extensible panels for structures and interactions  
+6. **Status Bar and Agent** (bottom): Coordinates, load status, notifications, and RBrowser Agent. 
 
 ---
 
