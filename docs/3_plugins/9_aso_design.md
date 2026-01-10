@@ -1,15 +1,15 @@
 # ASO Design
 ![RBrowser](../imgs/3_plugin/9_aso_design/aso_design_cover.png){ class="cover-image-lg" }
 
-## Overview
+## 1. Overview
 
 The ASO (Antisense Oligonucleotide) Design plugin is a sophisticated tool for designing therapeutic oligonucleotides and PCR primers with optimized binding properties and specificity. Built on the powerful Primer3 algorithm, this plugin automates the design process while considering critical parameters such as melting temperature, GC content, secondary structure formation, and off-target binding potential. Whether you're designing antisense therapeutics for gene knockdown, primers for RT-PCR validation, or probes for RNA detection, this plugin streamlines the workflow by integrating sequence data directly from RBrowser's visualization components. The tool provides ranked candidate sequences with quality assessments, detailed design logs, and exportable results for downstream experimental validation.
 
 
 
-## Getting Started with ASO Design
+## 2. Getting Started with ASO Design
 
-### Basic Workflow
+### 2.1 Basic Workflow
 
 When you click the ASO Design plugin button, a new window opens providing a comprehensive interface for sequence input and parameter configuration.
 
@@ -20,7 +20,7 @@ When you click the ASO Design plugin button, a new window opens providing a comp
 
 **Default parameters**: The plugin comes with optimized default parameters suitable for most common applications, so you can start designing immediately without detailed parameter adjustment.
 
-### Example Design Workflow
+### 2.2 Example Design Workflow
 
 ![RBrowser](../imgs/3_plugin/9_aso_design/aso_design_example01.gif){ class="cover-image-lg" }
 
@@ -74,16 +74,16 @@ Each candidate sequence is marked with a status indicator:
 - **Start new design**: Click the **`Redesign`** button in the lower right to return to the input page and begin a new design job with different sequences or parameters
 
 
-## Design Parameters and Settings
+## 3. Design Parameters and Settings
 
 The ASO Design tool provides extensive customization options based on Primer3 parameters, allowing you to fine-tune the design process for your specific experimental needs.
 
 Beyond manual input, RBrowser provides two convenient automated input methods that integrate directly with the visualization components:
 
-### ASO Design (Custom)
+### 3.1 ASO Design (Custom)
 You can always paste your own custom sequences in FASTA format for maximum flexibility.
 
-### ASO Design (Transcript)
+### 3.2 ASO Design (Transcript)
 
 The plugin seamlessly integrates with RBrowser's transcript navigation, automatically loading the complete transcript sequence when you switch between different transcripts.
 
@@ -119,7 +119,7 @@ The plugin seamlessly integrates with RBrowser's transcript navigation, automati
 5. Review results and select optimal candidates
 
 
-### ASO Design (Selected Region)
+### 3.3 ASO Design (Selected Region)
 
 For targeted design within specific genomic regions or transcript segments, the plugin can automatically load sequence from user-selected regions.
 
@@ -176,7 +176,7 @@ This feature is particularly powerful when combined with other RBrowser plugins:
 
 ---
 
-## Design Strategies for Different Applications
+## 4. Workflow Recommendations
 
 ### 1. Antisense Oligonucleotides (ASOs) for Therapeutics
 
@@ -196,7 +196,7 @@ This feature is particularly powerful when combined with other RBrowser plugins:
 4. Prioritize "Successful" status candidates
 5. Test top 3-5 candidates experimentally
 
-### 2. PCR Primers for RT-PCR Validation
+### 4.2 PCR Primers for RT-PCR Validation
 
 **Goal**: Design primer pairs for detecting transcript expression
 
@@ -212,7 +212,7 @@ This feature is particularly powerful when combined with other RBrowser plugins:
 3. Select primers spanning exon junctions (avoids genomic DNA amplification)
 4. Verify specificity using BLAST if needed
 
-### 3. qPCR Primers for Quantitative Analysis
+### 4.3 qPCR Primers for Quantitative Analysis
 
 **Goal**: Design primers for quantitative PCR with high efficiency
 
@@ -229,7 +229,7 @@ This feature is particularly powerful when combined with other RBrowser plugins:
 3. Design 3-5 primer pairs for validation
 4. Experimentally validate with standard curve
 
-### 4. Primers for Cloning and Mutagenesis
+### 4.4 Primers for Cloning and Mutagenesis
 
 **Goal**: Design primers for cloning or site-directed mutagenesis
 
@@ -244,7 +244,7 @@ This feature is particularly powerful when combined with other RBrowser plugins:
 3. Design longer primers for higher fidelity
 4. Add custom sequences (restriction sites, tags) to primer ends post-design
 
-### 5. Allele-Specific or SNP Discrimination Primers
+### 4.5 Allele-Specific or SNP Discrimination Primers
 
 **Goal**: Design primers that discriminate between alleles
 
@@ -260,7 +260,7 @@ This feature is particularly powerful when combined with other RBrowser plugins:
 
 ---
 
-### Troubleshooting Design Issues
+## 5. Troubleshooting Design Issues
 
 **Issue**: All candidates have "Warning" or "Error" status
 **Solution**: 

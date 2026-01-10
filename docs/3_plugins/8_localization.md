@@ -3,11 +3,11 @@
 
 ![RBrowser](../imgs/3_plugin/8_localization/rna_expression_cover.png){ class="cover-image-lg" }
 
-## Overview
+## 1. Overview
 
 The Subcellular Localization plugin visualizes the spatial distribution of RNA-binding proteins (RBPs) and other RNA-associated proteins across cellular compartments using immunofluorescence imaging data. Understanding where proteins localize within the cell is crucial for interpreting their biological functions, as protein localization often dictates regulatory activity, binding partner accessibility, and functional specificity. By integrating high-resolution fluorescence microscopy data from resources like the Human Protein Atlas, this plugin enables researchers to correlate RNA-protein interactions with protein localization patterns, providing spatial context for understanding post-transcriptional regulation, RNA metabolism, and cellular organization.
 
-## Cross-window Real-time Rendering
+## 2. Cross-window Real-time Rendering
 
 The Subcellular Localization plugin provides synchronized visualization of protein localization patterns in response to transcript selection, creating an integrated view of RNA-protein biology.
 
@@ -37,11 +37,11 @@ This synchronized approach enables powerful correlative analyses:
 
 ![RBrowser](../imgs/3_plugin/8_localization/rna_expression_multi_windows.gif){ class="cover-image-lg" }
 
-## Interactive Features
+## 3. Interactive Features
 
 ![RBrowser](../imgs/3_plugin/8_localization/rna_expression_function.gif){ class="cover-image" }
 
-### Navigation and Image Manipulation Controls
+### 3.1 Navigation and Image Manipulation Controls
 
 The Subcellular Localization viewer provides comprehensive image manipulation tools for optimal viewing and analysis of fluorescence microscopy data.
 
@@ -83,7 +83,7 @@ In addition to toolbar controls, you can use mouse interactions:
 5. Zoom out to regain context
 6. Reset orientation if needed by reloading
 
-### Show/Hide Legend
+### 3.2 Show/Hide Legend
 
 Control the visibility of annotation legends and labels to optimize viewing of the fluorescence images.
 
@@ -94,15 +94,15 @@ Control the visibility of annotation legends and labels to optimize viewing of t
 - **Scale bars**: Physical dimensions for size reference
 - **Staining information**: antibodies or probes were used
 
-### Download Fluorescence Images
+### 3.3 Download Fluorescence Images
 
 Export high-quality fluorescence images for use in publications, presentations, or further analysis.Click the download button to save the current view.
 
 ---
 
-## Understanding Subcellular Localization Patterns
+### 3.4 Understanding Subcellular Localization Patterns
 
-### Common Localization Patterns and Their Functional Implications
+Common Localization Patterns and Their Functional Implications
 
 **Nuclear localization:**
 
@@ -142,9 +142,9 @@ Export high-quality fluorescence images for use in publications, presentations, 
 
 ---
 
-## Best Practices
+## 4. Workflow Recommendations
 
-### 1. Correlating RBP Binding with Localization
+### 4.1 Correlating RBP Binding with Localization
 
 **Goal**: Understand whether RBP localization patterns correlate with their RNA binding specificity
 
@@ -155,7 +155,7 @@ Export high-quality fluorescence images for use in publications, presentations, 
 3. Correlate nuclear vs. cytoplasmic RBPs with nuclear-enriched vs. cytoplasmic RNAs
 4. Examine whether compartment-specific RBPs target specific RNA classes
 
-### 4. Functional analysis
+### 4.2 Functional analysis
 
 **Goal**: Predict protein function based on localization patterns
 
@@ -168,7 +168,7 @@ Export high-quality fluorescence images for use in publications, presentations, 
 
 ---
 
-## Troubleshooting
+## 5. Troubleshooting
 
 **Issue**: No localization image appears for my transcript.
 **Solution**: Not all transcripts have corresponding protein localization data. This may be because: (1) the protein hasn't been characterized, (2) antibodies aren't available, or (3) the protein is expressed at very low levels. Check the data source for coverage information.

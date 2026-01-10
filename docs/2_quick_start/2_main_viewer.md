@@ -13,14 +13,18 @@ The Navigation panel is organized into two horizontal tiers for efficient, conte
 1. **Reference Version**  
    Displays the current reference assembly (e.g. GRCh38).  
 2. **Search Box**  
-   Enter gene names, transcript IDs, or coordinate ranges for instant lookup.  
+   Enter gene names, transcript names for instant lookup.  After entering your query, press Enter or click  :fontawesome-solid-magnifying-glass: to search.
    ![RBrowser Main](../imgs/2_quick_start/quick_start_navi_search.gif){ class="cover-image" }
+
+    A better way is to open the left sidebar and search by **transcript name**, **gene name**, or **transcript ID**. Results are grouped by transcript type — click the arrow on the left to expand a group, or click a transcript directly to render it.
+
+   ![RBrowser Main](../imgs/2_quick_start/sidebar_search.gif){ class="cover-image" }
 3. **History**  
    Access a drop-down of recently navigated regions.  
 4. **Bookmark**  
-   Save or recall custom “favorite” views (region + active tracks).  
+   Save or recall custom favorite transcripts.  
 5. **Download**  
-   Export the visible tracks or sequence data.  
+   Export the tracks images.  
 6. **Track Label Toggle**  
    Show or hide the left-hand track names panel.  
       ![RBrowser Main](../imgs/2_quick_start/quick_start_navi_track_label.gif){ class="cover-image" }
@@ -49,10 +53,7 @@ The Navigation panel is organized into two horizontal tiers for efficient, conte
 1. **Flanking Width**  
    Specify upstream/downstream padding around the region (e.g. ±2000 bp).  
 2. **Coordinate System Switch**  
-   Toggle between **DNA**, **RNA**, or **CDS** coordinate modes.  
-
-   ![RBrowser Main](../imgs/2_quick_start/quick_start_rbrowser_navigation_axis_mode.png){ class="cover-image" }
-
+   Toggle between **DNA**, **RNA** coordinate modes.  
 3. **Zoom Presets**  
    Quick scale buttons (e.g. +5×, +3×, +1.5×, –1.5×, –3×, –5×).
 
@@ -76,7 +77,7 @@ The Navigation panel is organized into two horizontal tiers for efficient, conte
 ## Additional Elements  
 - **Axis**  
   Shows the continuous coordinate scale (in bases or residues) along the top.  
-  Adjusts dynamically to the selected DNA/RNA/CDS mode.  
+  Adjusts dynamically to the selected DNA/RNA mode.  
 - **Tooltip**  
   Hover over any feature to reveal a floating info box (e.g. feature name, coordinates, counts).  
   Configurable under **Tooltip Settings**.  

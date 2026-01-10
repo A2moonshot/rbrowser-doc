@@ -2,11 +2,11 @@
 
 ![RBrowser](../imgs/3_plugin/7_rna_chromtin/plugin_chromatin_associated_rna.png){ class="cover-image-lg" }
 
-## Overview
+## 1. Overview
 
 The RNA and Chromatin plugin provides interactive 3D visualization of chromatin-associated RNAs (caRNAs) in the context of three-dimensional genome organization. By integrating Hi-C chromatin conformation data with RNA localization information, this plugin enables researchers to explore how RNAs interact with chromatin structure and contribute to nuclear organization, transcriptional regulation, and epigenetic control. Users can visualize RNA-chromatin associations at multiple scales—from whole-genome topology to chromosome territories to individual caRNA loci—revealing spatial relationships between RNA molecules and their genomic targets. With multi-window comparison capabilities and synchronized navigation, this plugin serves as a powerful tool for understanding the spatial dimension of RNA-mediated gene regulation.
 
-## Cross-window Real-time Rendering
+## 2. Cross-window Real-time Rendering
 
 The RNA and Chromatin plugin supports multi-scale, multi-window visualization, enabling comprehensive exploration of RNA-chromatin interactions from global nuclear architecture to local genomic loci.
 
@@ -25,11 +25,11 @@ The RNA and Chromatin plugin supports multi-scale, multi-window visualization, e
     - The 3D position is highlighted across all scale levels
     - Cross-scale relationships are immediately visible
 
-## Features and Usage
+## 3. Features and Usage
 
 ![RBrowser](../imgs/3_plugin/7_rna_chromtin/rna_genome_cover.png){ class="cover-image" }
 
-### Navigation Controls
+### 3.1 Navigation Controls
 
 The RNA and Chromatin viewer provides intuitive 3D navigation tools for exploring the spatial organization of chromosomes and RNA associations.
 
@@ -46,11 +46,11 @@ The RNA and Chromatin viewer provides intuitive 3D navigation tools for explorin
 - **Spatial relationships**: Use rotation to assess 3D distances between caRNA sites and their target loci
 - **Context switching**: Quickly zoom between scales to maintain spatial context
 
-### Reset View
+### 3.2 Reset View
 
 After extensive exploration, restore the default viewing configuration to return to a standard perspective. You can click reset button to its orginal view.
 
-### Background Color
+### 3.3 Background Color
 
 Customize the viewer background to optimize visualization for different purposes.
 
@@ -59,16 +59,16 @@ Customize the viewer background to optimize visualization for different purposes
 - **Presentations**: Black backgrounds work well in dark presentation rooms
 - **High contrast**: Select backgrounds that maximize visibility of chromosome and RNA structures
 
-### Automatic Rotation (Spin)
+### 3.4 Automatic Rotation (Spin)
 
 Enable continuous automatic rotation to observe the 3D genome organization from all angles without manual manipulation. Click the spin button to start continuous rotation. Click again to stop at the current angle
 
 
-### Texture and Visualization Styles
+### 3.5 Texture and Visualization Styles
 
 Customize the visual representation of chromosomes and RNA associations to highlight different aspects of 3D genome organization.
 
-### Download and Export
+### 3.6 Download and Export
 
 Save your current view and data for publications, presentations, or further analysis.
 
@@ -82,11 +82,7 @@ Save your current view and data for publications, presentations, or further anal
 6. Click download and select high-resolution PNG
 7. Add labels and annotations in your graphics editor
 
----
-
-## Understanding RNA-Chromatin Biology
-
-### Chromatin-Associated RNAs (caRNAs)
+### 3.7 Understanding RNA-Chromatin Biology
 
 Chromatin-associated RNAs represent a diverse class of RNA molecules that interact with chromosomal DNA and play crucial roles in:
 
@@ -98,7 +94,7 @@ Chromatin-associated RNAs represent a diverse class of RNA molecules that intera
 
 ---
 
-## Best Practices
+## 4. Workflow Recommendations
 
 To maximize your analysis with the RNA and Chromatin plugin:
 
@@ -109,7 +105,7 @@ To maximize your analysis with the RNA and Chromatin plugin:
 
 ---
 
-## Troubleshooting
+## 5. Troubleshooting
 
 **Issue**: Chromosomes appear tangled or overlapping excessively.
 **Solution**: This may reflect biological reality (chromosomes do overlap) or model limitations. Try rotating to different angles. Reset view if navigation has distorted the display.

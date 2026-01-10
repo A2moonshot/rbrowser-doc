@@ -1,14 +1,17 @@
-# Region
+<!--
+ * @Author: Zheng Lei
+ * @Email: baimoc@163.com
+ * @Date: 2026-01-08 15:54:38
+ * @LastEditTime: 2026-01-09 16:39:15
+ * @FilePath: \rbrowser-doc\docs\2_quick_start\5_region.md
+-->
+# Selection Region
 
 ## Search Region
 
-Users can enter a region of interest in the **Search Input** at the top navigation bar and click the search button to navigate to that interval.  
+Users can enter a region of interest in the **Search Input** at the top navigation bar and click the search button to navigate to that interval. Supports rendering by **RNA coordinates + flanking regions**.
 
-- Supports switching the rendered interval by **genomic coordinates**  
-- Supports rendering by **RNA coordinates + flanking regions**  
-- Supports rendering by **Gene ID + flanking regions**  
-
-![Search Region](../imgs/2_quick_start/quick_start_navi_search.gif)
+![Search Region](../imgs/2_quick_start/quick_start_navi_search.gif){ class="cover-image" }
 
 ## Highlight Region
 
@@ -17,13 +20,11 @@ Users can enter a region of interest in the **Search Input** at the top navigati
     Hold the <kbd>Mouse Right</kbd> and drag over a region of interest to highlight it.  
     The highlight icon in the top-right corner toggles the visibility of the current highlighted region.
 
-    ![Single Highlight](../imgs/2_quick_start/quick_start_navi_highlight.gif)
-
 - **Multiple selection**  
 
     Hold <kbd>Ctrl</kbd> + <kbd>Mouse Right</kbd> drag to select and highlight multiple regions at once. 
 
-    ![Multiple Highlights](../imgs/2_quick_start/quick_start_regions-0.png)
+    ![Search Region](../imgs/2_quick_start/selection_multi.gif){ class="cover-image" }
 
 ## Region Management
 
@@ -31,18 +32,16 @@ After selecting one or more regions, you can edit them in the **Region Panel** o
 
 ### Switching Region Modes
 
+![Search Region](../imgs/2_quick_start/selection_manage.gif){ class="cover-image" }
+
 - **DNA Mode**  
 
     Regions are displayed using traditional genomic (chromosome) coordinates.  
-
-    ![DNA Mode Regions](../imgs/2_quick_start/quick_start_regions-1.png)
 
 - **RNA Mode**  
 
     Regions record and display only intervals **within** the spliced transcript.  
     
-    ![RNA Mode Regions](../imgs/2_quick_start/quick_start_regions-3.png)
-
 - **CDS Mode**  
     Regions span only the **coding sequence**, skipping introns and UTRs.
 

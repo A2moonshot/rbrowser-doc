@@ -2,13 +2,13 @@
 
 ![RBrowser](../imgs/3_plugin/plugins_rna_2d_structure.png){ class="cover-image-lg" }
 
-## Overview
+## 1. Overview
 
 The RNA 2D Structure plugin provides comprehensive visualization of RNA secondary structures with multiple annotation layers. By integrating experimental probing data (such as SHAPE, DMS-seq, and icSHAPE) with computational predictions, this plugin delivers more accurate and biologically relevant structural models compared to purely in silico methods. Users can explore structure-function relationships through various rendering modes including structural annotations, base-pairing patterns, thermodynamic stability (minimum free energy, entropy), pairing probabilities, and RNA modifications mapped onto 2D structures. The plugin uses a novel, RBrowser-defined r2s file format designed for efficient data transmission and rendering. 
 
 ---
 
-## Cross-window Real-time Rendering
+## 2. Cross-window Real-time Rendering
 
 The RNA 2D Structure plugin supports sophisticated multi-window and cross-plugin synchronization, enabling comprehensive structure-function analysis from multiple perspectives simultaneously.
 
@@ -46,11 +46,13 @@ This synchronized, multi-dimensional approach enables you to answer complex ques
 
 ---
 
-## Render Mode
+## 3. Features and Usage
+
+### 3.1 Render Mode
 
 The RNA 2D Structure plugin offers multiple rendering modes that highlight different aspects of RNA structure, from basic structural elements to thermodynamic properties and functional annotations. These complementary views enable comprehensive structural analysis tailored to your research question.
 
-### RNA Structure Annotation Mode
+#### 3.1.1 RNA Structure Annotation Mode
 
 This mode color-codes nucleotides based on their classification within secondary structure elements, providing immediate visual identification of structural motifs that are often functionally significant.
 
@@ -87,7 +89,7 @@ This mode color-codes nucleotides based on their classification within secondary
 **Use cases:**
 - Identify functional motifs (e.g., riboswitches, ribozymes, protein binding sites)
 
-### RNA Structure Mode
+#### 3.1.2 RNA Structure Mode
 
 This mode provides a simplified, binary classification of nucleotides based on their base-pairing status, offering clear visualization of single-stranded versus double-stranded regions to support structure-function analysis.
 
@@ -107,7 +109,7 @@ This mode provides a simplified, binary classification of nucleotides based on t
 ![RBrowser Main](../imgs/3_plugin/5_rna_2d_structure/rna_2d_structure_color_mode_structure.gif){ class="cover-image" }
 
 
-### Sequence Mode
+#### 3.1.3 Sequence Mode
 
 This mode displays the RNA sequence using standard nucleotide color-coding, allowing you to examine sequence patterns in the context of secondary structure.
 
@@ -128,7 +130,7 @@ This mode displays the RNA sequence using standard nucleotide color-coding, allo
 
 ![RBrowser Main](../imgs/3_plugin/5_rna_2d_structure/rna_2d_structure_color_mode_sequence.gif){ class="cover-image" }
 
-### GC Content Mode
+#### 3.1.4 GC Content Mode
 
 This mode highlights guanine (G) and cytosine (C) nucleotides to emphasize GC-rich regions within the secondary structure, which are important for structural stability and thermodynamic properties.
 
@@ -154,7 +156,7 @@ This mode highlights guanine (G) and cytosine (C) nucleotides to emphasize GC-ri
 
 ![RBrowser Main](../imgs/3_plugin/5_rna_2d_structure/rna_2d_structure_color_gc_content.gif){ class="cover-image" }
 
-### Pairing Probabilities Mode
+#### 3.1.5 Pairing Probabilities Mode
 
 ![RBrowser Main](../imgs/3_plugin/5_rna_2d_structure/rna_2d_structure_color_pairing_probabilities.gif){ class="cover-image" }
 
@@ -167,7 +169,7 @@ Pairing probabilities reflect the thermodynamic ensemble of RNA structures at eq
 - **Functional conformational switches**: Some RNAs (e.g., riboswitches) rely on structural plasticity for function
 
 
-### Minimum Free Energy (MFE) Mode
+#### 3.1.6 Minimum Free Energy (MFE) Mode
 
 This mode color-codes nucleotides based on their contribution to the overall thermodynamic stability of the RNA structure, using minimum free energy values calculated by RNAfold from the ViennaRNA package.
 
@@ -189,7 +191,7 @@ This mode color-codes nucleotides based on their contribution to the overall the
 - **Guide experimental design**: Design mutations or antisense oligonucleotides targeting specific stability regions
 
 
-### Entropy Mode
+#### 3.1.7 Entropy Mode
 
 This mode visualizes the conformational entropy of each nucleotide position, quantifying the structural uncertainty or flexibility based on calculations from RNAfold's partition function analysis.
 
@@ -207,19 +209,19 @@ This mode visualizes the conformational entropy of each nucleotide position, qua
     Low entropy indicates few accessible conformations, with one dominant structure
 
 
-### RNA Modification Mode
+#### 3.1.8 RNA Modification Mode
 
 This powerful mode integrates functional genomics data with structural information by projecting one-dimensional signal tracks (from the main RBrowser linear viewer) onto the 2D RNA structure, enabling structure-function correlation analysis.
 
 ---
 
-## Reset View
+### 3.2 Reset View
 
 After extensive exploration through zooming, panning, and layout adjustments, you may want to return to the default view configuration.
 
 ![RBrowser Main](../imgs/3_plugin/5_rna_2d_structure/rna_2d_structure_reset.gif){ class="cover-image" }
 
-## Download Structure
+### 3.3 Download Structure
 
 The RNA 2D Structure plugin allows you to export the current structure view for use in publications, presentations, or further analysis.
 
@@ -230,7 +232,7 @@ The RNA 2D Structure plugin allows you to export the current structure view for 
 
 ---
 
-## Best Practices
+## 4. Workflow Recommendations
 
 To maximize your analysis with the RNA 2D Structure plugin:
 
@@ -250,7 +252,7 @@ To maximize your analysis with the RNA 2D Structure plugin:
 
 ---
 
-## Troubleshooting
+## 5. Troubleshooting
 
 **Issue**: Structure appears distorted or overlapping.
 **Solution**: Click the reset button to restore the default layout. If problems persist, try reloading the structure file.

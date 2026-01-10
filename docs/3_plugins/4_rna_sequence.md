@@ -2,11 +2,11 @@
 
 ![RBrowser](../imgs/3_plugin/plugin_sequence_viewer.png){ class="cover-image-lg" }
 
-## Overview
+## 1. Overview
 
 The RNA Sequence Viewer provides detailed nucleotide-level visualization of RNA sequences with comprehensive annotations and multiple rendering modes. This plugin enables researchers to examine mRNA and CDS sequences with full structural annotations including UTRs, exons, codons, and their corresponding amino acid translations. Additionally, it displays complementary base-pairing information for each nucleotide, facilitating the design of antisense oligonucleotides (ASOs) and primers. When integrated with the ASO Design plugin, it becomes a powerful toolkit. With flexible color-coding schemes for nucleotide composition analysis (GC content, purine/pyrimidine distribution) and synchronized multi-window comparison capabilities, it serves as an essential tool for sequence analysis, oligonucleotide design, motif identification, and functional element characterization.
 
-## Cross-window Real-time Rendering
+## 2. Cross-window Real-time Rendering
 
 The multi-window feature allows you to compare different sequence representations and annotations simultaneously, providing comprehensive views of your transcript of interest.
 
@@ -38,14 +38,14 @@ This synchronized, multi-plugin approach allows you to comprehensively investiga
 
 ![RBrowser](../imgs/3_plugin/plugin_example.gif){ class="cover-image-lg" }
 
-
-## Render Mode
+## 3. Features and Usage
+### 3.1 Render Mode
 
 The RNA Sequence Viewer offers multiple color-coding schemes to highlight different aspects of nucleotide composition, helping you identify sequence patterns and functional elements relevant to your research question.
 
 **Available render modes:**
 
-### Nucleotide Mode
+#### 3.1.1 Nucleotide Mode
 The standard nucleotide rendering uses conventional color-coding to display the RNA sequence:
 
 - **A (Adenine)**
@@ -60,7 +60,7 @@ This mode is ideal for:
 - Visual comparison of sequence regions
 - Locating mutation or variant positions
 
-### GC Content Mode
+#### 3.1.2 GC Content Mode
 Highlights guanine (G) and cytosine (C) nucleotides with distinct coloring to emphasize GC-rich regions:
 
 - **G and C nucleotides**
@@ -74,7 +74,7 @@ This mode is particularly useful for:
 - Examining thermodynamic stability patterns (GC pairs are more stable than AU pairs)
 - Identifying potential miRNA binding sites (often have specific GC content requirements)
 
-### Purine vs. Pyrimidine Mode
+#### 3.1.3 Purine vs. Pyrimidine Mode
 Differentiates between purine bases (A, G) and pyrimidine bases (U, C):
 
 - **Purines (A, G)**: Larger, two-ring bases
@@ -94,11 +94,11 @@ Click on the render mode selector in the toolbar to cycle through different visu
 
 ![RBrowser](../imgs/3_plugin/4_rna_sequence/rna_sequence_color_mode.gif){ class="cover-image" }
 
-## Sequence Mode
+### 3.2 Sequence Mode
 
 The RNA Sequence Viewer provides two complementary sequence display modes to accommodate different research focuses, from studying regulatory elements to analyzing protein-coding sequences.
 
-### mRNA Mode
+#### 3.2.1 mRNA Mode
 
 The mRNA mode displays the complete messenger RNA transcript with comprehensive structural and functional annotations:
 
@@ -120,7 +120,7 @@ The mRNA mode displays the complete messenger RNA transcript with comprehensive 
 - Investigate RNA modifications in non-coding regions
 - Analyze mRNA stability determinants
 
-### CDS Mode
+#### 3.2.2 CDS Mode
 
 The CDS (Coding Sequence) mode focuses exclusively on the protein-coding region, providing a streamlined view optimized for translation analysis:
 
@@ -139,7 +139,7 @@ The CDS (Coding Sequence) mode focuses exclusively on the protein-coding region,
 - Investigate rare codons that may affect expression
 - Map protein variants and their genomic positions
 
-### Amino Acid Translation
+### 3.3 Amino Acid Translation
 
 A key feature available in both sequence modes is the automatic display of amino acid translations for codon triplets. This translation is maintained when switching between mRNA and CDS modes, facilitating:
 
@@ -155,13 +155,12 @@ Use the sequence mode selector in the toolbar to toggle between mRNA and CDS vie
 
 ![RBrowser](../imgs/3_plugin/4_rna_sequence/rna_sequence_mode.gif){ class="cover-image" }
 
----
-## Download
+### 3.4 Download
 This plugin allows you to download the currently adjusted image (PNG, JPEG) as well as the sequence (FASTA) file. Simply click the :material-download: button to start the download.
 
 ---
 
-## Best Practices
+## 4. Workflow Recommendations
 
 To maximize your productivity with the RNA Sequence Viewer:
 
@@ -182,7 +181,7 @@ To maximize your productivity with the RNA Sequence Viewer:
 
 ---
 
-## Troubleshooting
+## 5. Troubleshooting
 
 **Issue**: The sequence appears truncated or incomplete.
 **Solution**: Check that you've selected the correct transcript isoform. Some isoforms may be incomplete or lack certain regions.

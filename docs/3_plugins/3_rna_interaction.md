@@ -2,11 +2,11 @@
 
 ![RBrowser](../imgs/3_plugin/plugin_rna_intersection_network_header.png){ class="cover-image-lg" }
 
-## Overview
+## 1. Overview
 
 The RNA Interaction Viewer provides an interactive network visualization platform for exploring complex biomolecular interactions across three major categories: RNA-protein, RNA-RNA, and RNA-DNA interactions. This powerful plugin integrates diverse experimental datasets including CLIP-seq, eCLIP, CLASH, PARIS, ChIRP-seq, and other high-throughput sequencing technologies, enabling researchers to discover and analyze regulatory networks in an intuitive force-directed graph interface. The plugin supports flexible filtering, metadata exploration, and multi-window comparison capabilities, making it an essential tool for understanding gene regulation and cellular function.
 
-## Cross-window Real-time Rendering
+## 2. Cross-window Real-time Rendering
 
 The RNA Interaction Viewer supports multi-level visualization through dual window modes, enabling you to examine interaction networks from both global and detailed perspectives simultaneously.
 
@@ -40,11 +40,11 @@ The RNA Interaction Viewer supports multi-level visualization through dual windo
 
 ---
 
-## Interactive Features and Usage
+## 3. Features and Usage
 
 The RNA Interaction Viewer provides a highly flexible and intuitive interface for exploring complex biomolecular interaction networks. The interactive visualization allows you to manipulate the network layout and access detailed metadata for comprehensive analysis.
 
-### Navigation and Layout Manipulation
+### 3.1 Navigation and Layout Manipulation
 
 **Pan and zoom the entire view:**
 
@@ -57,7 +57,7 @@ The RNA Interaction Viewer provides a highly flexible and intuitive interface fo
 - **Optimize layout**: Manually arrange nodes to reduce edge crossings and improve visual clarity
 - **Persistent positioning**: Node positions are maintained during your session, allowing you to create custom layouts that best represent the biological relationships
 
-### Accessing Detailed Metadata
+### 3.2 Accessing Detailed Metadata
 
 The plugin provides comprehensive metadata for each element in the interaction network, facilitating data traceability and reproducibility.
 
@@ -89,7 +89,7 @@ Hover over or click on interaction edges (connecting lines) to access experiment
 
 The header button group provides multiple powerful functions to customize your interaction network view:
 
-## Molecule Type Filtering
+### 3.3 Molecule Type Filtering
 
 Complex interaction networks often involve numerous molecular types, which can make the visualization crowded and difficult to interpret. The legend control allows you to selectively display molecule types of interest, helping you focus on specific biological questions.
 
@@ -112,7 +112,7 @@ Complex interaction networks often involve numerous molecular types, which can m
     **Reduce complexity**: In highly connected networks, progressively hide less relevant molecule types to reveal core regulatory relationships<br/>
     **Compare molecule classes**: Hide all but two molecule types to examine specific interaction patterns
 
-## Controlling Display Density
+### 3.4 Controlling Display Density
 
 For highly connected genes or regulatory hubs, interaction networks can become overwhelming with hundreds of nodes and edges. The Show Number feature allows you to control the display density by limiting the number of rendered molecules, helping you focus on the most important interactions.
 
@@ -141,7 +141,7 @@ For highly connected genes or regulatory hubs, interaction networks can become o
 !!! tip
     Combine display limits with molecule type filtering for maximum control.
 
-## Reset View
+### 3.5 Reset View
 
 After extensive exploration through zooming, panning, and node rearrangement, you may lose track of the original network center or optimal viewing angle. The Reset function provides a quick way to restore the default view configuration.
 
@@ -156,49 +156,17 @@ After extensive exploration through zooming, panning, and node rearrangement, yo
    **Zoom level**: Returns to the default zoom that shows the entire network comfortably<br/>
    **Node positions**: manual arrangements are NOT lost
 
----
-
-## Workflow Recommendations
-
-To maximize your productivity with the RNA Interaction Viewer, consider these analytical workflows:
-
-### For Exploratory Analysis:
-
-1. **Start broad**: Begin with the global level view in the embedded plugin to understand the overall network complexity
-2. **Open detailed window**: Create a new window for in-depth exploration
-3. **Filter strategically**: Use legend controls to hide less relevant molecule types
-4. **Limit initial display**: Start with 25-50 interactions to avoid overwhelming complexity
-5. **Examine metadata**: Click on nodes and edges to understand the experimental basis
-6. **Adjust as needed**: Gradually increase display limits or show additional molecule types as you narrow your focus
-
-### For Hypothesis-Driven Research:
-
-1. **Search your target**: Use transcript search to navigate directly to your gene of interest
-2. **Focus the view**: Filter to show only molecule types relevant to your hypothesis (e.g., only miRNAs if studying transcriptional regulation)
-3. **Verify evidence**: Check interaction metadata to assess experimental support
-4. **Compare conditions**: Use multi-window mode to compare the same transcript's interactions across different datasets
-5. **Manual curation**: Arrange key nodes manually to create a clear representation of your proposed regulatory model
-
-### For Network Topology Analysis:
-
-1. **Display complete network**: Set show number to "All" to see full connectivity
-2. **Identify hubs**: Look for highly connected nodes that may represent regulatory hubs
-3. **Examine subnetworks**: Use filtering to isolate and study specific regulatory modules
-4. **Cross-reference**: Compare network properties with functional annotations and expression data
-
----
-
-## Understanding Interaction Types
+### 3.6 Understanding Interaction Types
 
 The RNA Interaction Viewer integrates multiple types of molecular interactions:
 
-### RNA-Protein Interactions
+#### 3.6.1 RNA-Protein Interactions
 
 - **Source data**: CLIP-seq, eCLIP-seq, PAR-CLIP, iCLIP
 - **Biological significance**: RNA-binding proteins (RBPs) that regulate RNA splicing, stability, translation, and localization
 - **Interpretation tips**: Consider RBP binding in the context of RNA structure and sequence motifs
 
-### RNA-RNA Interactions
+#### 3.6.2 RNA-RNA Interactions
 
 - **Source data**: CLASH, PARIS, LIGR-seq, miRNA target predictions
 - **Biological significance**: 
@@ -207,7 +175,7 @@ The RNA Interaction Viewer integrates multiple types of molecular interactions:
   - RNA duplex formation in trans
 - **Interpretation tips**: Validate computational predictions with experimental evidence; consider tissue-specific expression
 
-### RNA-DNA Interactions
+#### 3.6.3 RNA-DNA Interactions
 
 - **Source data**: ChIRP-seq
 - **Biological significance**: Chromatin-associated RNAs (caRNAs) involved in transcriptional regulation, chromatin remodeling, and epigenetic modifications
@@ -215,32 +183,79 @@ The RNA Interaction Viewer integrates multiple types of molecular interactions:
 
 ---
 
-## Troubleshooting
+## 4. Workflow Recommendations
+
+To maximize your productivity with the RNA Interaction Viewer, consider these analytical workflows:
+
+### 4.1 For Exploratory Analysis:
+
+1. **Start broad**: Begin with the global level view in the embedded plugin to understand the overall network complexity
+2. **Open detailed window**: Create a new window for in-depth exploration
+3. **Filter strategically**: Use legend controls to hide less relevant molecule types
+4. **Limit initial display**: Start with 25-50 interactions to avoid overwhelming complexity
+5. **Examine metadata**: Click on nodes and edges to understand the experimental basis
+6. **Adjust as needed**: Gradually increase display limits or show additional molecule types as you narrow your focus
+
+### 4.2 For Hypothesis-Driven Research:
+
+1. **Search your target**: Use transcript search to navigate directly to your gene of interest
+2. **Focus the view**: Filter to show only molecule types relevant to your hypothesis (e.g., only miRNAs if studying transcriptional regulation)
+3. **Verify evidence**: Check interaction metadata to assess experimental support
+4. **Compare conditions**: Use multi-window mode to compare the same transcript's interactions across different datasets
+5. **Manual curation**: Arrange key nodes manually to create a clear representation of your proposed regulatory model
+
+### 4.3 For Network Topology Analysis:
+
+1. **Display complete network**: Set show number to "All" to see full connectivity
+2. **Identify hubs**: Look for highly connected nodes that may represent regulatory hubs
+3. **Examine subnetworks**: Use filtering to isolate and study specific regulatory modules
+4. **Cross-reference**: Compare network properties with functional annotations and expression data
+
+---
+
+## 5. Troubleshooting
 
 **Issue**: The network appears too crowded and difficult to interpret.
+
 **Solution**: 
+
 1. Reduce the display number using the :octicons-arrow-switch-24: button
+
 2. Hide less relevant molecule types using the legend controls
+
 3. Focus on a specific transcript using the search function
 
 **Issue**: Important interactions seem to be missing.
+
 **Solution**: 
+
 1. Check if the display number limit is too restrictive—increase it
+
 2. Verify that the relevant molecule types are not hidden in the legend
+
 3. Confirm that the appropriate datasets are loaded in your configuration
 
 **Issue**: The view becomes sluggish when displaying large networks.
+
 **Solution**: 
+
 1. Reduce the display number to improve performance
+
 2. Close unnecessary windows
+
 3. Filter molecule types to reduce the number of rendered elements
 
 **Issue**: Manual node arrangements are lost after certain operations.
-**Solution**: The reset button and some filtering operations will restore automatic layouts. Save screenshots of important manual layouts before these operations.
+
+**Solution**: 
+    The reset button and some filtering operations will restore automatic layouts. Save screenshots of important manual layouts before these operations.
 
 **Issue**: Tooltips or metadata don't appear when hovering over nodes.
+
 **Solution**: 
+
 1. Ensure you're hovering directly over the node or edge
+
 2. Check that your browser allows tooltips (some browser extensions may block them)
 
 For additional support, please visit the [Contact](../5_contact/index.md) page.

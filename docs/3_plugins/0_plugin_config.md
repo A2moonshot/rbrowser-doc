@@ -1,7 +1,7 @@
 
 # Plugin Config
 
-## Configuration
+## 1. Configuration
 
 To register and display custom plugins in RBrowser, export a `pluginConf` array where each entry defines a plugin’s behavior and placement. Each plugin object supports the following properties:
 
@@ -23,7 +23,7 @@ To register and display custom plugins in RBrowser, export a `pluginConf` array 
 - **`setting`** _(optional)_  
   An object of initial settings, e.g. `{ visible: true }` to show by default.
 
-### Example (TypeScript)
+### 1.1 Example (TypeScript)
 
 ```Typescript
 
