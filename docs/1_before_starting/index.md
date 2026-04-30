@@ -13,15 +13,15 @@ icon: material/rocket-launch-outline
 - Natural language RBrowser GPT for querying and exploring the RNA landscape.
 
 # User Documentation
-1. [User Interface](../2_quick_start/1_user_interface.md)
-2. [Scenario](../2_quick_start/1_scenario.md)
-3. [Transcript Browser](../2_quick_start/2_main_viewer/)
-4. [Track Management](../2_quick_start/3_channel_and_track/)
-5. [Coordinate System](../2_quick_start/4_coordinate/)
-6. [Region Selection](../2_quick_start/5_region/)
-7. [Plugin System](../3_plugins/)
-8. [DataHub](../4_datahub/1_datahub_overview/)
-9. [RBrowser GPT](../2_quick_start/6_rbrowser_gpt/)
+- [User Interface](../2_quick_start/1_user_interface.md)
+- [Scenario](../2_quick_start/1_scenario.md)
+- [Transcript Browser](../2_quick_start/2_main_viewer/)
+- [Track Management](../2_quick_start/3_channel_and_track/)
+- [Coordinate System](../2_quick_start/4_coordinate/)
+- [Region Selection](../2_quick_start/5_region/)
+- [Plugin System](../3_plugins/)
+- [DataHub](../4_datahub/1_datahub_overview/)
+- [RBrowser GPT](../2_quick_start/6_rbrowser_gpt/)
     
 # Developer Reference
 - [Renderer Config API](../2_quick_start/7_config_grammar.md)
