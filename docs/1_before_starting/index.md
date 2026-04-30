@@ -6,7 +6,7 @@ icon: material/rocket-launch-outline
 
 ![RBrowser](../imgs/1_before_starting/rbrowser_cover.gif){ class="cover-image" }
 
-[RBrowser]([https://www.rbrowser.org](https://www.rbrowser.org)) offers:
+**[RBrowser](https://www.rbrowser.org) offers:**
 - Fast transcriptome visualization using high-performance 2D and 3D renderers.
 - Seamless integration between RNA and multimodal data with a microkernel-based plugin framework.
 - RNA-focused DataHub with transcriptome, RNA modification, and RNA structure datasets.
