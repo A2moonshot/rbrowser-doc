@@ -7,24 +7,17 @@
 -->
 # RBrowser GPT
 
-To further enhance usability and efficiency, RBrowser GPT leverages artificial intelligence (AI) to facilitate interactive RNA data exploration. This AI-powered assistant provides:
-Automated Query Assistance – Users can input natural language queries, and RBrowser GPT retrieves relevant RNA datasets and annotations.
+RBrowser GPT is an artificial intelligence (AI)-powered assistant that provides: 
+- **Automated Query Assistance:** Retrieves relevant RNA datasets and annotations from natural language queries.
+- **Context-Aware Data Interpretation:** Analyzes user-selected transcript regions and suggests potential RNA modifications, interactions, and functional annotations.
+- **Streamlined Data Navigation:** Guides users through multi-layered transcriptome data, improving workflow efficiency and interpretation.
 
-Context-Aware Data Interpretation – The AI model analyzes user-selected transcript regions and suggests potential RNA modifications, interactions, and functional annotations.
-Streamlined Data Navigation – Guides users through multi-layered transcriptome data, improving workflow efficiency and interpretation.
+## Using RBrowser GPT
+- Open the RBrowser GPT chat window by clicking the blue star icon in the bottom-right corner of the interface.  
+- Choose from one of the simple prompt examples we provide (e.g., `What are the RNA modification readers`) or ask *any* RNA-related question based on your own research needs.
+- Some responses will provide interactive elements (e.g., a table listing RNA modification readers). Click View RBrowser in the Action column to display the corresponding transcript or gene in the Transcript Browser.
 
-Users can open the **RBrowser GPT** chat window by clicking the robot icon in the bottom-right corner.  
-We provide several simple prompt examples for you to choose from.  
-You can also ask **any RNA-related question** based on your own research needs.
-
-### Example:
-
-When you type a question like `What are the RNA modification readers?` into the chat box and click the `↑` button to send it to RBrowser GPT, you will receive a brief overview along with a table listing RNA modification readers.
-
-Next, You can click `View RBrowser` in the **Action** column, and the current rendering window will jump to the corresponding transcript or gene.
-
-![Search Region](../imgs/2_quick_start/rbrowser_gpt.gif){class="cover-image" }
+![RBrowser GPT example interaction gif](../imgs/2_quick_start/rbrowser_gpt.gif){class="cover-image" }
 
 !!! Warning
-    AI-generated content may contain inaccuracies.  
-    Due to the current state of technology, all generative AI systems cannot guarantee the absolute accuracy of information.
+    AI-generated content may contain inaccuracies. Please verify important information with primary sources.
