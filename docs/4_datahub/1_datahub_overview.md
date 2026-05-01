@@ -1,51 +1,32 @@
 # DataHub
-## Overview
 
-![RBrowser](../imgs/4_datahub/data_hub-header.png)
+![RBrowser DataHub Screenshot](../imgs/4_datahub/data_hub-header.png)
 
-An RNA-focused DataHub has been established to store datasets related to the transcriptome, RNA modifications, and RNA structures.
+DataHub provides RNA-focused datasets related to the transcriptome, RNA modifications, and RNA structures.
 
-The DataHub interface is divided into two main panels:
+## Data Filter
+Filters are organized into multiple categories.
+There are two global buttons:
+- **`Collapse All` / `Expand All`:** Collapses or expands all categories.  
+- **`Reset Filters`:** Clears all selected items; the top-right corner displays the number of selected terms in a red circle.  
 
-- **Left: Data Filter** — allows users to narrow down and search for relevant datasets using categorized filters.
-- **Right: Data Table** — displays the filtered dataset entries, which can be further explored by clicking to asynchronously load and render the selected data.
+![RBrowser DataHub Filter Demonstration gif](../imgs/4_datahub/data_hub_v3.gif){ class="cover-image-lg" }
 
-## Datasets Filter
-The renderer organizes filters into multiple **sections**, each with its own toolbar.  
-Using the `Volume` section as an example, the buttons from left to right represent:
+Each category also has a tool bar. Using the `Volume` category as an example, the buttons from left to right represent:
 
-- Collapse this section  
+- Collapse category
 - Show/hide the search bar  
 - Visualize item counts using bars for comparison  
-- Show all items in this section  
-- Reset the filter for this section  
+- Show all items in category
+- Reset the filter for category 
 
-![RBrowser](../imgs/4_datahub/data_hub-filter-section.png){ class="cover-image-sm" }
+Selected items are displayed at the bottom of each category.  Click an item at the bottom to deselect. Click `Clear` to remove all selected items.
 
-When items are selected from a search, they are displayed at the bottom of the section.  
-Clicking an item at the bottom will deselect it, and clicking **`Clear`** will remove all selections.
-
-![RBrowser](../imgs/4_datahub/data_hub-filter-section-1.png){ class="cover-image-sm" }
-
-There are two global buttons:
-
-- **`Collapse All` / `Expand All`**: collapses or expands all sections  
-- **`Reset Filters`**: clears all section selections; the top-right corner displays the number of selected terms  
-
-Below is an example of dynamic filter interactions:
-
-![RBrowser](../imgs/4_datahub/data_hub_v3.gif){ class="cover-image-lg" }
+![RBrowser DataHub Volume Category Filter Screenshot](../imgs/4_datahub/data_hub-filter-section-1.png){ class="cover-image-sm" }
 
 ## Data Table
 The data table on the right displays the selected entries based on current filters.  
-At the bottom-left of the table, there is a navigation bar with the following elements (from left to right):
 
-- Number of entries displayed per page  
-- Current entry index and total entries  
-- Page navigation buttons  
-
-![RBrowser](../imgs/4_datahub/data_hub-table-navication.png){ class="cover-image-md" }
-
-Below is an example showing how a user selects an item in the table and clicks **`Apply`** to send it to the main rendering panel:
-
-![RBrowser](../imgs/4_datahub/data_hub_2_v3.gif){ class="cover-image-lg" }
+Select one or more items in the table and click `Apply` to send them to the Transcript Browser.
+  
+![RBrowser DataHub DataSet Selection Demonstration gif](../imgs/4_datahub/data_hub_2_v3.gif){ class="cover-image-lg" }
