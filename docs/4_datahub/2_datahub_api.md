@@ -1,14 +1,12 @@
 # RBrowser DataHub API
 ![RBrowser](../imgs/4_datahub/data_hub-api_header.png)
 
-We provide a comprehensive set of Application Programming Interface (API) centered around RNA annotations and signal data.  
-You can access the API at: [https://api.rbrowser.org/api/](https://api.rbrowser.org/api)
+RBrowser provides a comprehensive API centered around RNA annotations and signal data: [https://api.rbrowser.org/api](https://api.rbrowser.org/api)
 
 ## Request Format
 
-Each section offers a detailed request format along with the required data types.  
-You can tailor requests based on their specific needs to retrieve relevant responses.  
-You can click the `Try it out` button in the top right corner to test your requests and view the response structure.
+Each section offers a detailed request format along with the required data types, allowing you to tailor requests to your specific needs and obtain relevant responses.  
+Click the `Try it out` button in the top right corner to test your requests and view the response structure.
 
 ![Search Region](../imgs/4_datahub/data_hub-api-1.png){class="cover-image" }
 
@@ -61,9 +59,7 @@ Vary: Accept
 }
 ```
 
-## Other API document
-If you're not comfortable using this API documentation, we also provide an alternative version.
+## Other API documentation
+We also provide an alternative API: [https://api.rbrowser.org/doc](https://api.rbrowser.org/doc)
 
-You can access the API at: [https://api.rbrowser.org/doc/](https://api.rbrowser.org/doc/)
-
-![Search Region](../imgs/4_datahub/data_hub-api-2.png){class="cover-image" }
+![Search RegionALT](../imgs/4_datahub/data_hub-api-2.png){class="cover-image" }
