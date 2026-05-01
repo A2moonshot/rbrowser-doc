@@ -32,4 +32,4 @@ Select one or more items in the table and click `Apply` to send them to the Tran
 ![RBrowser DataHub DataSet Selection Demonstration gif](../imgs/4_datahub/data_hub_2_v3.gif){ class="cover-image-lg" }
 
 ## Data Sources
-The source of each dataset is provided in the `DOI` column of the Data Table. We actively add datasets as they become available. To suggest a dataset for inclusion, please [contact us](../5_contact/).
+The source of each dataset is provided in the `DOI` column of the Data Table. We actively add datasets as they become available. To suggest a dataset for inclusion, please [contact us](../5_contact/index.md).
