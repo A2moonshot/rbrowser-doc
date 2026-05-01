@@ -24,7 +24,7 @@ icon: material/rocket-launch-outline
 9. [RBrowser GPT](../2_quick_start/6_rbrowser_gpt/)
     
 # Developer Reference
-10. [Renderer Config API](../2_quick_start/7_config_grammar.md)
-11. [Plugin API](../3_plugins//0_plugin_config.md)
-12. [DataHub API](../4_datahub/2_datahub_api.md)
-13. [Error Message Reference](../0_error_message_reference/)
+# Developer Reference
+10. [Renderer Config](../2_quick_start/7_config_grammar/)
+11. [Plugin Config](../3_plugins/0_plugin_config/)
+12. [DataHub API](../4_datahub/2_datahub_api/)
