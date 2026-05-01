@@ -16,7 +16,11 @@ Lei Zheng: [type.zheng@gmail.com](mailto:type.zheng@gmail.com)
 - **Google group:** coming soon
 - **Facebook page:** coming soon
 - **X:** coming soon
-- **Slack:** [Join us]
+- **Slack:** coming soon
+
+## Citation
+
+If you use RBrowser in your research, please cite us: 
 
 ## Acknowledgements
 
