@@ -29,7 +29,8 @@ The Settings Panel on the left side displays information relevant to the current
 - **DataHub:** Opens DataHub in a new window to explore external RNA sources and repositories. See [DataHub](../4_datahub/1_datahub_overview.md).
 - **Plugin Store:** Manages available plugins developed by the RBrowser team and community. See [Plugin System](../3_plugins/1_plugin_overview.md).
 
-[!Tip] The search bar in this view is specific to the session history. Individual history entries can be deleted by hovering over the region and selecting the trash icon.
+!!!Tip
+  The search bar in the Settings Panel specific to the session history. Delete individual history entries by hovering over the region and selecting the trash icon.
 
 ## Plugin System
 
