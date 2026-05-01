@@ -25,9 +25,11 @@ The Settings Panel on the left side displays information relevant to the current
 - **Track:** Manages tracks sorted by track type (e.g., RNA annotation, DNA annotation, etc.). See [Track Management](../2_quick_start/3_channel_and_track.md).
 - **Selection:** Lists selection coordinates. Toggle between RNA and DNA mode using the blue box. See [Region Selection](../2_quick_start/5_region.md).
 - **Favorites:** Manages favorited regions for later review. Regions can be favorited by selecting the star icon in the Transcript Browser.
-- **History:** Manages chronological log of your actions within the session. Note: The search bar in this view is specific to the session history. Individual history entries can be deleted by hovering over the region and selecting the trash icon.
+- **History:** Manages chronological log of your actions within the session.
 - **DataHub:** Opens DataHub in a new window to explore external RNA sources and repositories. See [DataHub](../4_datahub/1_datahub_overview.md).
 - **Plugin Store:** Manages available plugins developed by the RBrowser team and community. See [Plugin System](../3_plugins/1_plugin_overview.md).
+
+[!Tip] The search bar in this view is specific to the session history. Individual history entries can be deleted by hovering over the region and selecting the trash icon.
 
 ## Plugin System
 
