@@ -1,5 +1,5 @@
 # RBrowser Renderer
-
+RBrowser Renderer Config defines the TypeScript interfaces used to configure the renderer, region, channels, and track display.
 ## Configuration
 
 ### `renderer`  
@@ -83,7 +83,7 @@ An array of track definitions; each object configures one visual channel:
 
 ## Interfaces
 
-This document describes the core TypeScript interfaces used to configure the RBrowser renderer, region selection, channels, and overall track configuration.
+TypeScript interfaces used to configure the RBrowser renderer, region selection, channels, and overall track configuration.
 
 ---
 
@@ -189,7 +189,7 @@ Top-level configuration object that ties together the renderer, region, channels
 
 ## Example (TypeScript)
 
-```TypeScript
+```typescript
 export const rendererRNAConfig: IRNAConfig = {
   renderer: {
     containerId: 'tb-rna',
