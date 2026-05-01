@@ -25,7 +25,7 @@ To register and display custom plugins in RBrowser, export a `pluginConf` array 
 
 ### Example: (TypeScript)
 
-```Typescript
+```typescript
 
 import TranscriptBrowser from '@/views/main/c-views/transcript'
 import RNA2DStructure from '@/views/main/c-views/rna_2d_structure'
