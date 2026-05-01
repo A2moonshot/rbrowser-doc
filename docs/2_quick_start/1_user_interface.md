@@ -43,7 +43,7 @@ The global toolbar provides navigation tools useful across use cases.
 - **View:** Show/hide track labels, gridlines, tooltip hints, selected regions, and cursor position.
 
 ## RBrowser GPT
-Icon for opening natural language personal assistant. See [RBrowser GPT](../2_quick_start/6_rbrowser_gpt/) 
+Icon for opening natural language personal assistant. See [RBrowser GPT](../2_quick_start/6_rbrowser_gpt/). 
 
 ## Status Bar
 Non-interactive display for data-loading progress, cache hits, and thread utilization.
