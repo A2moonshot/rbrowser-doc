@@ -2,7 +2,7 @@
 
 ![RBrowser DataHub Screenshot](../imgs/4_datahub/data_hub-header.png)
 
-DataHub is a respository for RNA-focused datasets related to the transcriptome, RNA modifications, and RNA structures.
+DataHub is a repository for RNA-focused datasets related to the transcriptome, RNA modifications, and RNA structures.
 
 ## Data Filter
 Filters are organized into multiple categories.
@@ -30,3 +30,6 @@ The data table on the right displays the selected entries based on current filte
 Select one or more items in the table and click `Apply` to send them to the Transcript Browser.
   
 ![RBrowser DataHub DataSet Selection Demonstration gif](../imgs/4_datahub/data_hub_2_v3.gif){ class="cover-image-lg" }
+
+## Data Sources
+The source of each dataset is provided in the `DOI` column of the Data Table. We actively add datasets as they become available. To suggest a dataset for inclusion, please [contact us](../5_contact/).
