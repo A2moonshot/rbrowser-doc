@@ -7,7 +7,7 @@
 -->
 # RBrowser User Interface
 
-![RBrowser UI](../imgs/2_quick_start/quick_start_rbrowser_UI2-01.png)
+![RBrowser Screenshot of User Interface with regions labeled](../imgs/2_quick_start/quick_start_rbrowser_UI2-01.png)
 
 RBrowser UI is an intuitive, high-resolution platform for exploring RNA–DNA crosstalk and transcriptome regulation, divided into six key regions:
 
